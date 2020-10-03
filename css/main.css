@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway-VariableFont_wght.ttf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Raleway, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #555555;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#menu {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+}
+
+#menu-name {
+    margin-left: 200px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu-name:hover {
+    color: #AAAAAA;
+}
+
+#menu-links {
+    font-size: 27px;
+}
+
+#menu-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#menu-links li {
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+#menu-links li a {
+    text-decoration: none;
+}
+
+#menu-links li a:hover {
+    color: #AAAAAA;
+}
+
+#menu-social-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+#menu-social-network .ai-google-scholar {
+    margin-top: 1px;
+    font-size: 33px;
+}
+
+#menu-social-network ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#menu-social-network li {
+    margin-left: 10px;
+}
+
+@-webkit-keyframes clickbait { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
+        @keyframes clickbait { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
+
+#menu-social-network i {
+    animation: 0.1s ease-in infinite alternate clickbait;
+    /* animation-duration: 0.3s; */
+    /* animation-timing-function: linear; */
+}
+
+#menu-social-network i:hover {
+    color: #7889f5;
+}
+
+hr {
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    border-top: 1px solid;
+}
+
+#content {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
