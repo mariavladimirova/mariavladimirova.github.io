@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="academicons/css/academicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{ page.style }}">
+  </head>
+  <body>
+    <div id="main">
+      {% include menu.html %}
+      <hr/>
+      <div id="content">
+	{{ content }}
+      </div>
+    </div>
+  </body>
+</html>
