@@ -166,11 +166,12 @@ p {
 	@-webkit-keyframes clickbait { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
 	@keyframes clickbait { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
 
-	i {
+	a {
+	    text-decoration: none;
 	    animation: 0.1s ease-in infinite alternate clickbait;
 	}
 
-	i:hover {
+	a:hover {
 	    color: $global-color-hover-icons;
 	}
     }
