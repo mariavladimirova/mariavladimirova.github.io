@@ -79,6 +79,10 @@ p {
 	font-weight: bold;
 	text-transform: uppercase;
 
+	a {
+	    text-decoration: none;
+	}
+
 	@media screen and (max-width: 1440px) {
 	    margin-left: 10px;
 	    font-size: $h-size-small;
