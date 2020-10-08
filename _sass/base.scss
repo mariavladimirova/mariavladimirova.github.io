@@ -42,8 +42,11 @@ ul {
     list-style: none;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     margin-bottom: $h-margin-bottom;
+}
+
+h1 {
     font-size: $h-size;
     text-transform: uppercase;
 
